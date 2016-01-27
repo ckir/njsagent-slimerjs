@@ -32,7 +32,7 @@ primus.on('open', function open() {
 });
 
 primus.on('error', function error(err) {
-    console.error('Something horrible has happened', err.stack);
+    console.error('Something horrible has happened', err.stack || err);
 });
 
 function serverurl() {
