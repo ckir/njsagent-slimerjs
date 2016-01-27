@@ -1,0 +1,26 @@
+{
+  "name": "njsagent-slimerjs",
+  "version": "1.0.0",
+  "description": "A plugin for njsagent",
+  "main": "./node_modules/slimerjs/bin/slimerjs $NJSSLIMER_ARGS app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckir/njsagent-slimerjs.git"
+  },
+  "keywords": [
+    "njsagent"
+  ],
+  "author": "Costas Kirgoussios <ckir1508@hotmail.com> (http://gr.linkedin.com/in/ckirgoussios/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckir/njsagent-slimerjs/issues"
+  },
+  "homepage": "https://github.com/ckir/njsagent-slimerjs#readme",
+  "dependencies": {
+    "bluebird": "^3.1.4",
+    "slimerjs": "^0.9.6-2"
+  }
+}
